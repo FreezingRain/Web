@@ -1,20 +1,39 @@
-*{
-    padding: 0;
-    margin: 0;
-}
+
 header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
     background: #000000;
+    padding: 20px 10px;
 }
 .header-container{
-    width: 90%;
-    margin: 0;
     display: flex;
+  align-items: center;
+    
 }
-.header-container a{
+
+.menu a{
     color: #FF4500 ;
     font size: 16px;
-    padding: 27px 6px;
+    padding: 14px;
+    border-radius: 4px;
 }
-nav{
-margin-top: 20px;
+nav {
+
+    display: flex;
+    align-items: center;
+    
 }
+.images{
+    display: flex;
+    float: left;
+    flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 580px) {
+
+}
+
+
